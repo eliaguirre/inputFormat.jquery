@@ -1,5 +1,5 @@
 
-n ($) {
+(function($) {
     $.fn.inputFormat = function (opt) {
         if (typeof opt == "string") {
             switch (opt) {
