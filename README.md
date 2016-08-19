@@ -8,7 +8,10 @@ en HTML
 ```
 <input id="input-numero" type="text" >
 <script>
+        //init
 	$("#input-numero").inputFormat();
+        //get value
+	$("#input-numero").inputFormat("value");
 </script>
 ```
 ##opciones:
